@@ -1,6 +1,7 @@
 import turtle   # importing the turtle module
 
 my_turtle = turtle.Turtle()
+my_turtle.speed(0)
 
 # Defining a function which creates a square based on the parameters "length" and "angle" passed to it
 def square(length, angle):
@@ -9,6 +10,6 @@ def square(length, angle):
         my_turtle.right(angle)
 
 # A loop for calling the square function 33 times. This will create an interesting pattern!
-for i in range(33):
+for i in range(36):
     square(200, 90)
-    my_turtle.right(11)
+    my_turtle.right(10)
