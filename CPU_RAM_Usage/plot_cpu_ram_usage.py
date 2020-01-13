@@ -1,4 +1,3 @@
-import random
 from itertools import count
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -25,7 +24,6 @@ def animate(i):
 
     plt.legend(loc='upper left')
     plt.tight_layout()
-
 
 ani = FuncAnimation(plt.gcf(), animate, interval=1000)
 
