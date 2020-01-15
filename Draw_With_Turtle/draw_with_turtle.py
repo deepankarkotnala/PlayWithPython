@@ -1,3 +1,4 @@
+# Import the turtle module and use it to draw a coloured face!
 import turtle
 t = turtle.Turtle()
 t.shape('turtle')
