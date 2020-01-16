@@ -28,4 +28,4 @@ while True:
         print(('CPU:{}%'.format(info['cpu_usage'])).ljust(10),'RAM:{}%'.format(info['ram_usage']))
         x_value += 1
 
-    time.sleep(1)
+    time.sleep(0.2)
