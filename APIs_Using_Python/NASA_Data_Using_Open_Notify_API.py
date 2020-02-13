@@ -8,7 +8,7 @@ if(request.status_code ==200):
 # Convert json to a dictionary
 iss_data = request.json()
 
-print('Information about International Space Station:')
+print('Present Coordinates of International Space Station (ISS):')
 # Function to recursively iterate elements of a nested dictionary
 def iterdict(d):
   for k,v in d.items():        
@@ -24,5 +24,11 @@ people = requests.get('http://api.open-notify.org/astros.json')
 
 # Convert json to a dictionary 
 astro_dict = people.json()
+
+# Print the number of people in space 
 print('\nThere are {} astronauts in the space right now!' .format(astro_dict["number"]))
 
+# Print the names of people in space using a for loop
+print('\nList of Astronauts in Space:')
+for p in astro_dict['people']:
+    print(p['name'])
