@@ -3,11 +3,12 @@ import os
 request = requests.get('http://api.open-notify.org/iss-now.json')
 
 if(request.status_code ==200):
-    print('\nURL check: OK. \nEndpoint hit successful.')
+    print('\nURL check: OK. \nEndpoint hit successful.\n')
 
 # Convert json to a dictionary
 iss_data = request.json()
 
+print('Information about International Space Station:')
 # Function to recursively iterate elements of a nested dictionary
 def iterdict(d):
   for k,v in d.items():        
