@@ -1,3 +1,5 @@
+A **decorator** is a function that takes a function as its only parameter and returns a function. This is helpful to “wrap” functionality with the same code over and over again. 
+
 ```python
 # Adds a welcome message to the string 
 # returned by fun(). Takes fun() as 
