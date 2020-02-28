@@ -43,4 +43,4 @@ print(Employee.__dict__,'\n')
 
 ## Output
 
-![alt-txt](https://github.com/deepankarkotnala/PlayWithPython/blob/master/OOP/Images/class_variables.JPG)
+![alt-txt](https://github.com/deepankarkotnala/PlayWithPython/blob/master/OOP/Images/class_var.JPG)
