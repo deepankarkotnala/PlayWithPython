@@ -1,0 +1,43 @@
+pip install virtualenv
+
+### Create a directory to make our virtual environments
+```bash
+mkdir Environments
+```
+```bash
+cd Environments
+```
+```bash
+virtualenv project1_env
+```
+
+### Activate this virtual env
+source project1_env/bin/activate
+
+### list of all packages installed with versions in current environment
+pip list 
+
+### Export these package names and versions to a file
+
+### takes only local entities that we had in the python environment
+
+pip freeze --local > requirements.txt
+```bash
+which python
+```
+### To deactivate the virtual environment
+```bash
+deactivate
+```
+### To delete the venv
+```bash
+rm -rf project1_env/
+```
+
+### We can specify the version of python that we need
+```bash
+virtualenv -p /usr/bin/python3.5 py35_env
+```
+```bash
+source py35_env/bin/activate
+```
