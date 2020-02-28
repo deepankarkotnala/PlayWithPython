@@ -21,13 +21,15 @@ virtualenv project1_env
 source project1_env/bin/activate
 
 #### List of all packages installed with versions in current environment
+
+```bash
 pip list 
-
+```
 #### Export these package names and versions to a file
-
-#### Takes only local entities that we had in the python environment
-
+Takes only local entities that we had in the python environment
+```bash
 pip freeze --local > requirements.txt
+```
 ```bash
 which python
 ```
