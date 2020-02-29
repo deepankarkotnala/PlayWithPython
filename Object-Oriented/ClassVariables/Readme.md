@@ -40,3 +40,4 @@ print(Employee.__dict__,'\n')
 
 ```
 
+![alt-txt](https://github.com/deepankarkotnala/PlayWithPython/blob/master/Object-Oriented/ClassVariables/class_var.jpg)
